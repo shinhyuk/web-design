@@ -3,365 +3,585 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Careers — Hyundai AutoEver</title>
+    <title>HR AX Drive TFT — Hyundai AutoEver</title>
     <meta
       name="description"
-      content="현대오토에버는 모빌리티의 미래를 소프트웨어로 그립니다. 소프트웨어가 차를 정의하는 시대, 함께 만들어갈 동료를 찾습니다."
+      content="현대오토에버 HR AX Drive TFT — HR의 모든 순간을 AI로 다시 설계합니다. 채용·평가·온보딩·러닝까지, People Experience를 코드로 움직이는 조직."
     />
-    <link rel="preconnect" href="https://rsms.me/" />
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <!-- Global Nav -->
-    <nav class="global-nav" aria-label="Global">
-      <div class="global-nav__inner">
-        <a class="global-nav__brand" href="#top" aria-label="Hyundai AutoEver">
-          <svg viewBox="0 0 240 18" aria-hidden="true">
-            <text x="0" y="14" class="brandmark">HYUNDAI AUTOEVER</text>
+    <!-- Noise overlay for cinematic grain -->
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- Top global nav -->
+    <header class="nav" aria-label="Global">
+      <div class="nav__inner">
+        <a class="nav__brand" href="#top" aria-label="Hyundai AutoEver HR AX Drive TFT">
+          <span class="nav__dot" aria-hidden="true"></span>
+          <span class="nav__brand-text">HYUNDAI AUTOEVER</span>
+          <span class="nav__brand-sub">／ HR AX DRIVE TFT</span>
+        </a>
+        <nav class="nav__menu" aria-label="Sections">
+          <a href="#concept">Concept</a>
+          <a href="#mission">Mission</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#stack">AX Stack</a>
+          <a href="#initiatives">Initiatives</a>
+          <a href="#impact">Impact</a>
+        </nav>
+        <a class="nav__cta" href="#contact">
+          <span>Contact</span>
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </a>
-        <ul class="global-nav__menu">
-          <li><a href="#sdv">SDV</a></li>
-          <li><a href="#cloud">Cloud &amp; AI</a></li>
-          <li><a href="#mobility">Mobility</a></li>
-          <li><a href="#factory">Smart Factory</a></li>
-          <li><a href="#culture">Culture</a></li>
-          <li><a href="#positions">Positions</a></li>
-        </ul>
-        <div class="global-nav__utility">
-          <a class="nav-search" href="#positions" aria-label="Search">
-            <svg viewBox="0 0 16 16" aria-hidden="true">
-              <circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.2" />
-              <line x1="11" y1="11" x2="14" y2="14" stroke="currentColor" stroke-width="1.2" />
-            </svg>
-          </a>
-          <a class="btn-utility" href="#apply">Apply</a>
-        </div>
       </div>
-    </nav>
+    </header>
 
-    <!-- Sub Nav Frosted -->
-    <div class="sub-nav" id="top">
-      <div class="sub-nav__inner">
-        <span class="sub-nav__label">Careers</span>
-        <div class="sub-nav__links">
-          <a href="#culture">Working at AutoEver</a>
-          <a href="#benefits">Benefits</a>
-          <a href="#positions">Open Roles</a>
-          <a href="#process">Process</a>
+    <main id="top">
+      <!-- ======================= HERO ======================= -->
+      <section class="hero" data-reveal>
+        <div class="hero__bg" aria-hidden="true">
+          <div class="hero__grid"></div>
+          <div class="hero__orb hero__orb--a"></div>
+          <div class="hero__orb hero__orb--b"></div>
+          <div class="hero__scan"></div>
         </div>
-        <a class="btn-pill" href="#apply">Apply now</a>
-      </div>
-    </div>
 
-    <main>
-      <!-- Hero (light) -->
-      <section class="tile tile--light tile--hero" data-reveal>
-        <p class="eyebrow">Hyundai AutoEver Careers · 2026</p>
-        <h1 class="hero-display">Drive the Future.</h1>
-        <p class="lead">소프트웨어가 모빌리티를 정의하는 시대,<br />그 코드를 함께 쓸 동료를 찾습니다.</p>
-        <div class="cta-row">
-          <a class="btn-pill btn-pill--primary" href="#positions">Open positions</a>
-          <a class="btn-pill btn-pill--ghost" href="#culture">Why AutoEver</a>
+        <div class="hero__meta">
+          <span class="tag">
+            <span class="tag__dot"></span>
+            <span>SINCE 2026 · TASK FORCE TEAM</span>
+          </span>
+          <span class="hero__coord">37.4019° N · 127.1086° E ／ PANGYO</span>
         </div>
-        <figure class="hero-figure" aria-hidden="true">
-          <svg viewBox="0 0 1200 420" class="hero-figure__svg">
-            <defs>
-              <clipPath id="carClip">
-                <path d="M120 290 L260 200 Q340 168 470 168 L760 168 Q890 168 980 220 L1080 270 L1080 310 L120 310 Z" />
-              </clipPath>
-            </defs>
-            <g class="hero-car">
-              <path
-                d="M120 290 L260 200 Q340 168 470 168 L760 168 Q890 168 980 220 L1080 270 L1080 310 L120 310 Z"
-                fill="#1d1d1f"
-              />
-              <path
-                d="M300 215 Q360 188 460 188 L760 188 Q860 188 940 230"
-                fill="none"
-                stroke="rgba(255,255,255,0.25)"
-                stroke-width="1"
-              />
-              <circle cx="320" cy="310" r="48" fill="#0a0a0c" />
-              <circle cx="320" cy="310" r="22" fill="#1d1d1f" />
-              <circle cx="900" cy="310" r="48" fill="#0a0a0c" />
-              <circle cx="900" cy="310" r="22" fill="#1d1d1f" />
-              <g clip-path="url(#carClip)" opacity="0.55">
-                <text x="160" y="240" class="code-rain">01001000 0x4F101 def drive(self): return future()</text>
-                <text x="220" y="270" class="code-rain">while road.ahead: model.predict(); fleet.sync()</text>
-                <text x="180" y="295" class="code-rain">// SDV · ADAS · OTA · Connected · Cloud-native</text>
-              </g>
-            </g>
-            <ellipse cx="600" cy="345" rx="450" ry="14" fill="rgba(0,0,0,0.22)" filter="blur(18px)" />
-          </svg>
-        </figure>
-      </section>
 
-      <!-- SDV (dark) -->
-      <section class="tile tile--dark" id="sdv" data-reveal>
-        <p class="eyebrow eyebrow--dark">Software Defined Vehicle</p>
-        <h2 class="display-lg">차는 이제, 코드로<br />업데이트됩니다.</h2>
-        <p class="lead lead--dark">
-          현대오토에버는 차량용 소프트웨어 플랫폼 <strong>Mobilgene</strong>을 만듭니다.
-          OTA, ADAS, 인포테인먼트까지 — 차량의 모든 경험을 소프트웨어로 정의합니다.
-        </p>
-        <ul class="kpi">
-          <li><span class="kpi__num">1B+</span><span class="kpi__label">월 OTA 패키지 처리량</span></li>
-          <li><span class="kpi__num">7</span><span class="kpi__label">완성차 글로벌 공급</span></li>
-          <li><span class="kpi__num">99.99%</span><span class="kpi__label">차량 통신 가용성</span></li>
-        </ul>
-        <a class="link-on-dark" href="#positions">SDV 직무 보기 →</a>
-      </section>
+        <h1 class="hero__title" aria-label="HR AX Drive">
+          <span class="hero__line">
+            <span class="char" style="--i:0">H</span><span class="char" style="--i:1">R</span>
+            <span class="hero__slash">／</span>
+            <span class="char" style="--i:2">A</span><span class="char" style="--i:3">X</span>
+          </span>
+          <span class="hero__line hero__line--accent">
+            <span class="char" style="--i:4">D</span><span class="char" style="--i:5">R</span><span class="char" style="--i:6">I</span><span class="char" style="--i:7">V</span><span class="char" style="--i:8">E</span>
+          </span>
+        </h1>
 
-      <!-- Why AutoEver (parchment) -->
-      <section class="tile tile--parchment" id="why" data-reveal>
-        <p class="eyebrow">Why AutoEver</p>
-        <h2 class="display-lg">현대차그룹의 모든 IT는<br />여기서 시작됩니다.</h2>
-        <p class="lead">
-          16개 계열사, 30개국, 매일 1,200만 대의 자동차가 <br />우리 시스템 위에서 움직입니다.
+        <p class="hero__sub">
+          <span class="hero__sub-jp">HUMAN RESOURCE × AI TRANSFORMATION</span>
+          <span class="hero__sub-kr">사람과 일을, AI로 다시 설계합니다.</span>
         </p>
-        <div class="grid-3">
-          <article class="util-card">
-            <h3 class="card-title">8,000+</h3>
-            <p class="card-body">소프트웨어 엔지니어 · 데이터 사이언티스트 · 클라우드 아키텍트</p>
-          </article>
-          <article class="util-card">
-            <h3 class="card-title">₩3.2조</h3>
-            <p class="card-body">2025 매출 — 그룹 IT 인프라의 중추</p>
-          </article>
-          <article class="util-card">
-            <h3 class="card-title">30개국</h3>
-            <p class="card-body">글로벌 데이터센터 · 리전별 SDV 백본</p>
-          </article>
-        </div>
-      </section>
 
-      <!-- Tech domains: Cloud & AI (dark) -->
-      <section class="tile tile--dark-2" id="cloud" data-reveal>
-        <p class="eyebrow eyebrow--dark">Cloud · AI · Data</p>
-        <h2 class="display-lg">차에서 일어난 일은,<br />클라우드에서 학습됩니다.</h2>
-        <p class="lead lead--dark">
-          하루 60TB의 차량 텔레메트리를 수집·정제하고, 자율주행과 사용자 경험을 위한 AI 모델로 환원합니다.
-          멀티클라우드, Kubernetes, MLOps — 우리는 자동차에서 가장 큰 데이터 파이프라인을 운영합니다.
-        </p>
-        <div class="chip-row">
-          <span class="chip">Kubernetes</span>
-          <span class="chip">Kafka</span>
-          <span class="chip">Spark</span>
-          <span class="chip">PyTorch</span>
-          <span class="chip">Ray</span>
-          <span class="chip">Terraform</span>
-          <span class="chip">Vector DB</span>
-          <span class="chip">LLM Ops</span>
-        </div>
-        <a class="link-on-dark" href="#positions">Cloud · AI 직무 보기 →</a>
-      </section>
-
-      <!-- Mobility platform (light) -->
-      <section class="tile tile--light" id="mobility" data-reveal>
-        <p class="eyebrow">Smart Mobility</p>
-        <h2 class="display-lg">도로 위 모든 이동을<br />하나의 플랫폼 위에.</h2>
-        <p class="lead">
-          내비게이션, EV 충전, 카셰어링, 물류 — 사람과 화물이 움직이는 모든 순간을 잇는 모빌리티 OS를 만듭니다.
-        </p>
-        <div class="split">
-          <div class="split__panel">
-            <h3 class="card-title">HD Map &amp; Navigation</h3>
-            <p class="card-body">실시간 도로 상황을 1초 단위로 차량에 전달합니다.</p>
+        <div class="hero__rail">
+          <div class="hero__rail-cell">
+            <span class="hero__rail-num" data-count="04">00</span>
+            <span class="hero__rail-label">CORE TRACKS</span>
           </div>
-          <div class="split__panel">
-            <h3 class="card-title">EV Charging Network</h3>
-            <p class="card-body">전국 충전 인프라를 단일 API로 연결합니다.</p>
+          <div class="hero__rail-cell">
+            <span class="hero__rail-num" data-count="12">00</span>
+            <span class="hero__rail-label">AX INITIATIVES</span>
+          </div>
+          <div class="hero__rail-cell">
+            <span class="hero__rail-num" data-count="365">000</span>
+            <span class="hero__rail-label">DAYS OF DRIVE</span>
+          </div>
+          <div class="hero__rail-cell">
+            <span class="hero__rail-num" data-count="01">00</span>
+            <span class="hero__rail-label">MISSION</span>
+          </div>
+        </div>
+
+        <a class="hero__scroll" href="#concept" aria-label="Scroll to concept">
+          <span>SCROLL</span>
+          <span class="hero__scroll-line"></span>
+        </a>
+      </section>
+
+      <!-- ======================= MARQUEE ======================= -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>HR × AI</span><span class="marquee__sep">●</span>
+          <span>RECRUIT</span><span class="marquee__sep">●</span>
+          <span>ASSESS</span><span class="marquee__sep">●</span>
+          <span>ONBOARD</span><span class="marquee__sep">●</span>
+          <span>GROW</span><span class="marquee__sep">●</span>
+          <span>RETAIN</span><span class="marquee__sep">●</span>
+          <span>PEOPLE ANALYTICS</span><span class="marquee__sep">●</span>
+          <span>EMPLOYEE EXPERIENCE</span><span class="marquee__sep">●</span>
+          <span>HR × AI</span><span class="marquee__sep">●</span>
+          <span>RECRUIT</span><span class="marquee__sep">●</span>
+          <span>ASSESS</span><span class="marquee__sep">●</span>
+          <span>ONBOARD</span><span class="marquee__sep">●</span>
+          <span>GROW</span><span class="marquee__sep">●</span>
+          <span>RETAIN</span><span class="marquee__sep">●</span>
+          <span>PEOPLE ANALYTICS</span><span class="marquee__sep">●</span>
+          <span>EMPLOYEE EXPERIENCE</span><span class="marquee__sep">●</span>
+        </div>
+      </div>
+
+      <!-- ======================= CONCEPT ======================= -->
+      <section class="section" id="concept" data-reveal>
+        <div class="section__head">
+          <span class="kicker"><span class="kicker__num">01</span><span>CONCEPT</span></span>
+          <h2 class="display">
+            HR을, 코드로<br />
+            <em>움직입니다.</em>
+          </h2>
+        </div>
+        <div class="concept-grid">
+          <p class="concept-lead">
+            <span class="bigquote">“</span>
+            현대오토에버 <strong>HR AX Drive TFT</strong>는 사람을 다루는 모든 업무를
+            AI로 다시 설계하는 전담 조직입니다. 채용 공고를 다듬는 일부터, 평가의 공정성을
+            검증하는 일까지 — People Experience의 모든 접점에서 알고리즘이 함께
+            <em>운전대를 잡습니다.</em>
+          </p>
+          <div class="concept-side">
+            <div class="concept-side__cell">
+              <span class="concept-side__label">우리가 하는 일</span>
+              <p>HR 데이터와 LLM을 결합해, 의사결정의 속도와 일관성을 동시에 끌어올립니다.</p>
+            </div>
+            <div class="concept-side__cell">
+              <span class="concept-side__label">우리가 믿는 것</span>
+              <p>AI는 사람을 대체하지 않습니다. 사람의 판단에 더 좋은 데이터를 더할 뿐입니다.</p>
+            </div>
+            <div class="concept-side__cell">
+              <span class="concept-side__label">우리가 만드는 것</span>
+              <p>현대오토에버 8,000명의 일하는 방식을 바꾸는, 사내 표준 AX 플랫폼.</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- Smart Factory (dark) -->
-      <section class="tile tile--dark-3" id="factory" data-reveal>
-        <p class="eyebrow eyebrow--dark">Smart Factory</p>
-        <h2 class="display-lg">자동차를 만드는 공장도,<br />소프트웨어가 운영합니다.</h2>
-        <p class="lead lead--dark">
-          MES, 디지털 트윈, 실시간 품질 검사 AI — 글로벌 30개 공장의 라인이 우리 코드 위에서 돌아갑니다.
+      <!-- ======================= MANIFESTO ======================= -->
+      <section class="manifesto" data-reveal>
+        <div class="manifesto__bg" aria-hidden="true"></div>
+        <p class="manifesto__pre">— A MANIFESTO</p>
+        <p class="manifesto__body">
+          우리는 <span class="hl">HR을 자동화</span>하려는 것이 아니라,
+          <span class="hl">HR을 가속</span>하려고 모였다.<br />
+          반복은 모델에게, 판단은 사람에게.<br />
+          그리고 그 사이의 모든 <em>마찰</em>을 — 우리가 깎는다.
         </p>
-        <a class="link-on-dark" href="#positions">Smart Factory 직무 보기 →</a>
+        <p class="manifesto__sign">HR AX Drive TFT, 2026</p>
       </section>
 
-      <!-- Culture (parchment) -->
-      <section class="tile tile--parchment" id="culture" data-reveal>
-        <p class="eyebrow">Working at AutoEver</p>
-        <h2 class="display-lg">잘 만드는 사람이,<br />가장 잘 자라는 곳.</h2>
-        <p class="lead">
-          엔지니어가 코드만 쓰면 되는 환경 — 의사결정은 빠르고, 코드 리뷰는 깊고, 학습은 끊이지 않습니다.
-        </p>
-        <div class="grid-3">
-          <article class="util-card">
-            <h3 class="card-title">Engineer-led</h3>
-            <p class="card-body">기술 의사결정은 기술자에게. 아키텍처 RFC와 코드 리뷰가 문화입니다.</p>
+      <!-- ======================= MISSION PILLARS ======================= -->
+      <section class="section section--dark" id="mission" data-reveal>
+        <div class="section__head">
+          <span class="kicker"><span class="kicker__num">02</span><span>MISSION</span></span>
+          <h2 class="display">
+            네 개의 트랙,<br />
+            <em>하나의 드라이브.</em>
+          </h2>
+        </div>
+        <div class="pillars">
+          <article class="pillar" style="--accent: var(--c-cyan)">
+            <div class="pillar__head">
+              <span class="pillar__num">T01</span>
+              <span class="pillar__tag">ACQUIRE</span>
+            </div>
+            <h3 class="pillar__title">AI-Native<br />Recruiting</h3>
+            <p class="pillar__body">
+              JD 작성·후보자 매칭·인터뷰 요약을 LLM 위에서 통합합니다.
+              채용 리드타임 <strong>40%</strong> 단축이 목표.
+            </p>
+            <ul class="pillar__list">
+              <li>JD Copilot</li>
+              <li>Resume Match Score</li>
+              <li>Interview Insight</li>
+            </ul>
           </article>
-          <article class="util-card">
-            <h3 class="card-title">Always learning</h3>
-            <p class="card-body">연 200만원 학습비, 글로벌 컨퍼런스 참여, 사내 기술 세미나 매주 진행.</p>
+
+          <article class="pillar" style="--accent: var(--c-violet)">
+            <div class="pillar__head">
+              <span class="pillar__num">T02</span>
+              <span class="pillar__tag">GROW</span>
+            </div>
+            <h3 class="pillar__title">Learning<br />Reimagined</h3>
+            <p class="pillar__body">
+              개인의 커리어 궤적을 학습 데이터로 환원하고, AI 튜터가
+              <strong>1:1 학습 경로</strong>를 매주 갱신합니다.
+            </p>
+            <ul class="pillar__list">
+              <li>Skill Graph</li>
+              <li>Adaptive Track</li>
+              <li>AI Mentor Chat</li>
+            </ul>
           </article>
-          <article class="util-card">
-            <h3 class="card-title">Real impact</h3>
-            <p class="card-body">당신이 머지한 PR이, 다음 주 도로 위 1,200만 대에서 실행됩니다.</p>
+
+          <article class="pillar" style="--accent: var(--c-amber)">
+            <div class="pillar__head">
+              <span class="pillar__num">T03</span>
+              <span class="pillar__tag">ASSESS</span>
+            </div>
+            <h3 class="pillar__title">Fair &amp;<br />Explainable</h3>
+            <p class="pillar__body">
+              평가·승진의 모든 판단 근거를 추적합니다.
+              모델의 신뢰도를 <strong>설명 가능</strong>한 방식으로 공개합니다.
+            </p>
+            <ul class="pillar__list">
+              <li>Bias Audit</li>
+              <li>Decision Trace</li>
+              <li>Calibration View</li>
+            </ul>
+          </article>
+
+          <article class="pillar" style="--accent: var(--c-lime)">
+            <div class="pillar__head">
+              <span class="pillar__num">T04</span>
+              <span class="pillar__tag">EXPERIENCE</span>
+            </div>
+            <h3 class="pillar__title">Everyday<br />HR Copilot</h3>
+            <p class="pillar__body">
+              연차·증명서·복지 문의를 24시간 응대하고, 매니저의
+              <strong>1:1 코칭</strong>까지 함께 준비합니다.
+            </p>
+            <ul class="pillar__list">
+              <li>People Copilot</li>
+              <li>1:1 Prep</li>
+              <li>Sentiment Pulse</li>
+            </ul>
           </article>
         </div>
       </section>
 
-      <!-- Benefits (light) -->
-      <section class="tile tile--light" id="benefits" data-reveal>
-        <p class="eyebrow">Benefits</p>
-        <h2 class="display-lg">잘 일하려면,<br />잘 살아야 합니다.</h2>
-        <ul class="benefits-list">
-          <li><span>01</span><p>주 4.5일 유연근무 · 코어타임 11–16시</p></li>
-          <li><span>02</span><p>판교 사옥 · 자율좌석 · 듀얼 4K 모니터 기본 지급</p></li>
-          <li><span>03</span><p>현대·기아·제네시스 임직원 차량 구매 할인</p></li>
-          <li><span>04</span><p>건강검진, 가족 의료비, 자녀 학자금 전액 지원</p></li>
-          <li><span>05</span><p>리프레시 휴가 5년마다 1개월 + 항공권</p></li>
-          <li><span>06</span><p>스톡옵션 · 성과급 · 장기재직 포상</p></li>
-        </ul>
-      </section>
-
-      <!-- Open Positions (dark) -->
-      <section class="tile tile--dark" id="positions" data-reveal>
-        <p class="eyebrow eyebrow--dark">Open Positions</p>
-        <h2 class="display-lg">지금, 함께 일할 자리.</h2>
-        <p class="lead lead--dark">전체 87개 포지션 · 상시채용</p>
-        <ul class="positions">
-          <li>
-            <div>
-              <p class="positions__role">Senior Backend Engineer, Vehicle Cloud</p>
-              <p class="positions__meta">SDV · 판교 · 경력 5년+ · Kotlin / Go</p>
+      <!-- ======================= ROADMAP ======================= -->
+      <section class="section" id="roadmap" data-reveal>
+        <div class="section__head">
+          <span class="kicker"><span class="kicker__num">03</span><span>ROADMAP</span></span>
+          <h2 class="display">
+            네 개의 분기,<br />
+            <em>한 번의 변속.</em>
+          </h2>
+        </div>
+        <ol class="roadmap">
+          <li class="roadmap__item">
+            <div class="roadmap__rail"><span class="roadmap__node"></span></div>
+            <div class="roadmap__panel">
+              <div class="roadmap__meta">
+                <span class="roadmap__q">Q1 2026</span>
+                <span class="roadmap__phase">PHASE.00 — IGNITION</span>
+              </div>
+              <h3>HR 데이터 통합 &amp; Foundation Model 셋업</h3>
+              <p>HRIS·러닝·평가 데이터를 단일 레이크로 정렬합니다. 사내용 LLM 게이트웨이가 운영을 시작합니다.</p>
             </div>
-            <a class="btn-pill btn-pill--primary" href="#apply">Apply</a>
           </li>
-          <li>
-            <div>
-              <p class="positions__role">ML Engineer, Autonomous Driving Perception</p>
-              <p class="positions__meta">AI · 판교 · 경력 3년+ · PyTorch / CUDA</p>
+          <li class="roadmap__item">
+            <div class="roadmap__rail"><span class="roadmap__node"></span></div>
+            <div class="roadmap__panel">
+              <div class="roadmap__meta">
+                <span class="roadmap__q">Q2 2026</span>
+                <span class="roadmap__phase">PHASE.01 — ACCELERATE</span>
+              </div>
+              <h3>JD Copilot · Resume Match 베타</h3>
+              <p>채용 라이프사이클의 가장 무거운 두 지점을 먼저 가볍게 만듭니다. 채용팀 30명이 first user가 됩니다.</p>
             </div>
-            <a class="btn-pill btn-pill--primary" href="#apply">Apply</a>
           </li>
-          <li>
-            <div>
-              <p class="positions__role">Embedded Software Engineer, AUTOSAR</p>
-              <p class="positions__meta">SDV · 의왕 · 경력 5년+ · C / C++</p>
+          <li class="roadmap__item">
+            <div class="roadmap__rail"><span class="roadmap__node"></span></div>
+            <div class="roadmap__panel">
+              <div class="roadmap__meta">
+                <span class="roadmap__q">Q3 2026</span>
+                <span class="roadmap__phase">PHASE.02 — SHIFT</span>
+              </div>
+              <h3>People Copilot 전사 오픈</h3>
+              <p>8,000명이 매일 묻는 HR 질문을, 1.2초 안에 답하는 어시스턴트로 옮깁니다.</p>
             </div>
-            <a class="btn-pill btn-pill--primary" href="#apply">Apply</a>
           </li>
-          <li>
-            <div>
-              <p class="positions__role">Site Reliability Engineer, Mobility Platform</p>
-              <p class="positions__meta">Cloud · 판교 · 경력 3년+ · Kubernetes / Terraform</p>
+          <li class="roadmap__item">
+            <div class="roadmap__rail"><span class="roadmap__node"></span></div>
+            <div class="roadmap__panel">
+              <div class="roadmap__meta">
+                <span class="roadmap__q">Q4 2026</span>
+                <span class="roadmap__phase">PHASE.03 — CRUISE</span>
+              </div>
+              <h3>Skill Graph · Adaptive Learning GA</h3>
+              <p>개인 커리어 맵과 학습 경로가 매주 자동 갱신되고, 매니저의 1:1 준비가 절반의 시간으로 끝납니다.</p>
             </div>
-            <a class="btn-pill btn-pill--primary" href="#apply">Apply</a>
-          </li>
-          <li>
-            <div>
-              <p class="positions__role">Frontend Engineer, In-Vehicle Infotainment</p>
-              <p class="positions__meta">SDV · 판교 · 경력 3년+ · TypeScript / Qt / Flutter</p>
-            </div>
-            <a class="btn-pill btn-pill--primary" href="#apply">Apply</a>
-          </li>
-          <li>
-            <div>
-              <p class="positions__role">Data Engineer, Smart Factory</p>
-              <p class="positions__meta">Data · 울산 · 경력 3년+ · Spark / Kafka</p>
-            </div>
-            <a class="btn-pill btn-pill--primary" href="#apply">Apply</a>
-          </li>
-        </ul>
-        <a class="link-on-dark" href="#apply">전체 87개 포지션 보기 →</a>
-      </section>
-
-      <!-- Process (light) -->
-      <section class="tile tile--light" id="process" data-reveal>
-        <p class="eyebrow">How to Apply</p>
-        <h2 class="display-lg">네 번의 만남,<br />그 다음은 함께.</h2>
-        <ol class="steps">
-          <li>
-            <span class="steps__num">01</span>
-            <h3>Apply</h3>
-            <p>직무에 맞춰 이력서를 제출합니다. 자기소개서 양식은 없습니다.</p>
-          </li>
-          <li>
-            <span class="steps__num">02</span>
-            <h3>Tech screen</h3>
-            <p>현직 엔지니어와 60분, 코드와 시스템 디자인을 함께 살핍니다.</p>
-          </li>
-          <li>
-            <span class="steps__num">03</span>
-            <h3>Onsite</h3>
-            <p>판교 캠퍼스에서 팀과 반나절. 점심도 함께합니다.</p>
-          </li>
-          <li>
-            <span class="steps__num">04</span>
-            <h3>Offer</h3>
-            <p>2주 안에 결정. 입사일은 본인이 정합니다.</p>
           </li>
         </ol>
       </section>
 
-      <!-- Apply CTA (dark-2) -->
-      <section class="tile tile--dark-2" id="apply" data-reveal>
-        <h2 class="display-lg" style="text-align:center">미래를 코드로 그릴 준비,<br />되셨나요?</h2>
-        <div class="cta-row" style="justify-content:center">
-          <a class="btn-pill btn-pill--primary" href="mailto:careers@hyundai-autoever.com">Apply now</a>
-          <a class="btn-pill btn-pill--ghost-on-dark" href="#positions">Browse roles</a>
+      <!-- ======================= AX STACK ======================= -->
+      <section class="section section--dark" id="stack" data-reveal>
+        <div class="section__head">
+          <span class="kicker"><span class="kicker__num">04</span><span>AX STACK</span></span>
+          <h2 class="display">
+            HR의 모든 레이어에,<br />
+            <em>AI 레이어를 얹습니다.</em>
+          </h2>
         </div>
-        <p class="lead lead--dark" style="text-align:center;margin-top:32px">
-          careers@hyundai-autoever.com · +82 1577-7676
+        <div class="stack">
+          <div class="stack__layer">
+            <span class="stack__layer-label">L4 · EXPERIENCE</span>
+            <div class="stack__layer-cells">
+              <span>People Copilot</span><span>1:1 Prep</span><span>Sentiment Pulse</span><span>Manager Brief</span>
+            </div>
+          </div>
+          <div class="stack__layer">
+            <span class="stack__layer-label">L3 · WORKFLOW</span>
+            <div class="stack__layer-cells">
+              <span>JD Copilot</span><span>Interview Insight</span><span>Calibration View</span><span>Offer Draft</span>
+            </div>
+          </div>
+          <div class="stack__layer">
+            <span class="stack__layer-label">L2 · MODEL</span>
+            <div class="stack__layer-cells">
+              <span>HR-LLM Gateway</span><span>Resume Match</span><span>Skill Graph</span><span>Bias Audit</span>
+            </div>
+          </div>
+          <div class="stack__layer">
+            <span class="stack__layer-label">L1 · DATA</span>
+            <div class="stack__layer-cells">
+              <span>HRIS Lake</span><span>Learning Log</span><span>Performance Vault</span><span>Survey Stream</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= INITIATIVES ======================= -->
+      <section class="section" id="initiatives" data-reveal>
+        <div class="section__head">
+          <span class="kicker"><span class="kicker__num">05</span><span>INITIATIVES</span></span>
+          <h2 class="display">
+            지금 굴러가는<br />
+            <em>다섯 대의 프로젝트.</em>
+          </h2>
+        </div>
+        <div class="initiatives">
+          <article class="card">
+            <div class="card__media" data-glow="cyan" aria-hidden="true">
+              <svg viewBox="0 0 200 120">
+                <defs>
+                  <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#00E0FF"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+                </defs>
+                <rect x="14" y="20" width="172" height="80" rx="12" fill="none" stroke="url(#g1)" stroke-width="1.2"/>
+                <path d="M30 75 L60 55 L90 65 L120 40 L155 55 L180 38" fill="none" stroke="url(#g1)" stroke-width="2"/>
+                <circle cx="120" cy="40" r="4" fill="#00E0FF"/>
+              </svg>
+            </div>
+            <div class="card__body">
+              <span class="card__id">PROJECT 001</span>
+              <h3>JD Copilot</h3>
+              <p>20개 직무군의 채용 공고를 30분 만에 작성. 기존 평균 4시간을 12분으로.</p>
+              <span class="card__stage">Beta · 채용팀</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media" data-glow="violet" aria-hidden="true">
+              <svg viewBox="0 0 200 120">
+                <circle cx="100" cy="60" r="34" fill="none" stroke="#A78BFA" stroke-width="1"/>
+                <circle cx="100" cy="60" r="22" fill="none" stroke="#A78BFA" stroke-width="1" opacity=".6"/>
+                <circle cx="100" cy="60" r="10" fill="#A78BFA"/>
+                <line x1="20" y1="60" x2="180" y2="60" stroke="#A78BFA" stroke-width="0.6" stroke-dasharray="2 4"/>
+              </svg>
+            </div>
+            <div class="card__body">
+              <span class="card__id">PROJECT 002</span>
+              <h3>Resume Match Score</h3>
+              <p>JD ↔ 후보자 적합도를 5초 안에. 면접관은 더 좋은 질문을, 더 빨리 받게 됩니다.</p>
+              <span class="card__stage">Alpha · 리쿠르터 12명</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media" data-glow="amber" aria-hidden="true">
+              <svg viewBox="0 0 200 120">
+                <g stroke="#F59E0B" stroke-width="1" fill="none">
+                  <rect x="20" y="30" width="40" height="60" rx="4"/>
+                  <rect x="80" y="50" width="40" height="40" rx="4"/>
+                  <rect x="140" y="20" width="40" height="70" rx="4"/>
+                </g>
+                <line x1="14" y1="92" x2="186" y2="92" stroke="#F59E0B" stroke-width="0.6"/>
+              </svg>
+            </div>
+            <div class="card__body">
+              <span class="card__id">PROJECT 003</span>
+              <h3>Calibration View</h3>
+              <p>평가 분포를 모델이 미리 시뮬레이션. 매니저는 회의 전 자기 점수의 캘리브레이션을 봅니다.</p>
+              <span class="card__stage">Design · 2026 Q3</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media" data-glow="lime" aria-hidden="true">
+              <svg viewBox="0 0 200 120">
+                <g stroke="#86EFAC" stroke-width="1" fill="none">
+                  <circle cx="60" cy="60" r="8"/>
+                  <circle cx="100" cy="40" r="6"/>
+                  <circle cx="100" cy="80" r="6"/>
+                  <circle cx="140" cy="60" r="8"/>
+                  <line x1="60" y1="60" x2="100" y2="40"/>
+                  <line x1="60" y1="60" x2="100" y2="80"/>
+                  <line x1="100" y1="40" x2="140" y2="60"/>
+                  <line x1="100" y1="80" x2="140" y2="60"/>
+                </g>
+              </svg>
+            </div>
+            <div class="card__body">
+              <span class="card__id">PROJECT 004</span>
+              <h3>Skill Graph</h3>
+              <p>사람·역할·역량을 그래프로 잇고, 다음 커리어 한 칸을 매주 추천합니다.</p>
+              <span class="card__stage">R&amp;D · 2026 Q3</span>
+            </div>
+          </article>
+
+          <article class="card card--wide">
+            <div class="card__media" data-glow="cyan" aria-hidden="true">
+              <svg viewBox="0 0 420 120">
+                <g fill="none" stroke="#67E8F9" stroke-width="1">
+                  <path d="M10 90 Q80 30 150 60 T290 70 T410 40"/>
+                  <path d="M10 100 Q80 70 150 80 T290 90 T410 70" opacity=".5"/>
+                </g>
+                <g fill="#67E8F9">
+                  <circle cx="150" cy="60" r="3"/>
+                  <circle cx="290" cy="70" r="3"/>
+                  <circle cx="410" cy="40" r="3"/>
+                </g>
+              </svg>
+            </div>
+            <div class="card__body">
+              <span class="card__id">PROJECT 005</span>
+              <h3>People Copilot</h3>
+              <p>8,000명의 일상 HR 질문에, 사내 정책과 매뉴얼을 근거로 1.2초 안에 답합니다. 매니저에게는 1:1 미팅 어젠다를 미리 정리해 둡니다.</p>
+              <span class="card__stage">Pilot · 전사 오픈 예정 2026 Q3</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ======================= IMPACT NUMBERS ======================= -->
+      <section class="impact" id="impact" data-reveal>
+        <div class="impact__bg" aria-hidden="true"></div>
+        <div class="section__head">
+          <span class="kicker kicker--light"><span class="kicker__num">06</span><span>IMPACT</span></span>
+          <h2 class="display display--light">
+            숫자로 보는<br />
+            <em>드라이브의 결과.</em>
+          </h2>
+        </div>
+        <div class="impact__grid">
+          <div class="impact__cell">
+            <span class="impact__num" data-count="40">0</span><span class="impact__suf">%↓</span>
+            <span class="impact__label">채용 리드타임</span>
+            <span class="impact__sub">JD 작성 → 첫 컨택까지</span>
+          </div>
+          <div class="impact__cell">
+            <span class="impact__num" data-count="8000">0</span><span class="impact__suf">+</span>
+            <span class="impact__label">People Copilot 사용자</span>
+            <span class="impact__sub">전사 임직원 단일 채널</span>
+          </div>
+          <div class="impact__cell">
+            <span class="impact__num" data-count="1.2">0.0</span><span class="impact__suf">s</span>
+            <span class="impact__label">평균 응답 시간</span>
+            <span class="impact__sub">HR 챗 어시스턴트 기준</span>
+          </div>
+          <div class="impact__cell">
+            <span class="impact__num" data-count="12">0</span><span class="impact__suf"></span>
+            <span class="impact__label">Live AX Initiatives</span>
+            <span class="impact__sub">2026년 1분기 기준</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= PRINCIPLES ======================= -->
+      <section class="section" id="principles" data-reveal>
+        <div class="section__head">
+          <span class="kicker"><span class="kicker__num">07</span><span>PRINCIPLES</span></span>
+          <h2 class="display">
+            우리가 합의한<br />
+            <em>여섯 가지 약속.</em>
+          </h2>
+        </div>
+        <ul class="principles">
+          <li><span>01</span><p><strong>사람의 결정.</strong> AI는 추천하고, 사람은 결정한다.</p></li>
+          <li><span>02</span><p><strong>설명 가능.</strong> 모든 모델 출력에는, 근거를 함께 띄운다.</p></li>
+          <li><span>03</span><p><strong>데이터 최소화.</strong> 필요한 것만 쓰고, 쓴 만큼만 남긴다.</p></li>
+          <li><span>04</span><p><strong>편향 추적.</strong> 분기마다 모델을 감사하고, 결과를 사내에 공개한다.</p></li>
+          <li><span>05</span><p><strong>속도의 약속.</strong> 의사결정과 응답 모두, 어제보다 빨라야 한다.</p></li>
+          <li><span>06</span><p><strong>현장 우선.</strong> 매니저와 임직원이 매일 쓰지 않는 기능은, 만들지 않는다.</p></li>
+        </ul>
+      </section>
+
+      <!-- ======================= CLOSING / CTA ======================= -->
+      <section class="closing" id="contact" data-reveal>
+        <div class="closing__bg" aria-hidden="true">
+          <div class="closing__orb"></div>
+          <div class="closing__grid"></div>
+        </div>
+        <p class="closing__pre">— A NEW HR, DRIVEN BY AI</p>
+        <h2 class="closing__title">
+          HR의 운전대는,<br />
+          이제 <em>함께</em> 잡습니다.
+        </h2>
+        <p class="closing__body">
+          현대오토에버 HR AX Drive TFT는 사내 파트너십과 협업 제안을 환영합니다.
+        </p>
+        <div class="closing__cta">
+          <a class="btn btn--primary" href="mailto:hr-ax-drive@hyundai-autoever.com">
+            <span>제안 보내기</span>
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="#roadmap"><span>로드맵 다시 보기</span></a>
+        </div>
+        <p class="closing__contact">
+          hr-ax-drive@hyundai-autoever.com ／ 경기도 성남시 분당구 판교역로 152
         </p>
       </section>
     </main>
 
     <footer class="footer">
       <div class="footer__inner">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <span class="footer__brand-line">HYUNDAI AUTOEVER</span>
+            <span class="footer__brand-sub">HR AX DRIVE TFT</span>
+          </div>
+          <p class="footer__tagline">사람을 다루는 모든 업무를, AI로 다시 설계합니다.</p>
+        </div>
         <div class="footer__cols">
           <section>
-            <h4>Careers</h4>
+            <h4>Sections</h4>
             <ul>
-              <li><a href="#positions">Open Roles</a></li>
-              <li><a href="#culture">Culture</a></li>
-              <li><a href="#benefits">Benefits</a></li>
-              <li><a href="#process">Process</a></li>
+              <li><a href="#concept">Concept</a></li>
+              <li><a href="#mission">Mission</a></li>
+              <li><a href="#roadmap">Roadmap</a></li>
+              <li><a href="#stack">AX Stack</a></li>
+              <li><a href="#initiatives">Initiatives</a></li>
             </ul>
           </section>
           <section>
-            <h4>Tech</h4>
+            <h4>Initiatives</h4>
             <ul>
-              <li><a href="#sdv">SDV</a></li>
-              <li><a href="#cloud">Cloud &amp; AI</a></li>
-              <li><a href="#mobility">Mobility</a></li>
-              <li><a href="#factory">Smart Factory</a></li>
-            </ul>
-          </section>
-          <section>
-            <h4>Company</h4>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Newsroom</a></li>
-              <li><a href="#">Investors</a></li>
-              <li><a href="#">Sustainability</a></li>
+              <li>JD Copilot</li>
+              <li>Resume Match Score</li>
+              <li>Calibration View</li>
+              <li>Skill Graph</li>
+              <li>People Copilot</li>
             </ul>
           </section>
           <section>
             <h4>Contact</h4>
             <ul>
-              <li>careers@hyundai-autoever.com</li>
+              <li>hr-ax-drive@hyundai-autoever.com</li>
               <li>+82 1577-7676</li>
               <li>경기도 성남시 분당구 판교역로 152</li>
             </ul>
           </section>
         </div>
         <div class="footer__legal">
-          <p>Copyright © 2026 Hyundai AutoEver. All rights reserved.</p>
-          <p>
-            <a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a> ·
-            <a href="#">Sitemap</a>
-          </p>
+          <p>© 2026 Hyundai AutoEver Co., Ltd. All rights reserved.</p>
+          <p>HR AX Drive TFT · Internal showcase page</p>
         </div>
       </div>
     </footer>
